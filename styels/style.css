@@ -1,0 +1,47 @@
+/* common style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+ 
+  background-color: #F15B22;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.202);
+  text-decoration: none;
+  color: white;
+}
+
+/* ================= */
+.banner{
+  background-image: url("../images/banner/banner1.png");
+  width: 1600px;
+  height: 808px;
+  background-size: cover;
+  padding: 216px 230px 364px 845px;
+}
+
+.banner-conteiner{
+  max-width: 525px;
+  text-align: right;
+}
+.banner-conteiner h1{
+  font-size: 65px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.banner-conteiner p{
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
