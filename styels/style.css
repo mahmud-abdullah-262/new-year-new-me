@@ -45,3 +45,18 @@
   line-height: 26px;
   margin-bottom: 32px;
 }
+
+.my-failure{
+  margin: 130px auto 0;
+  width: 67%;
+  max-width: 1072px;
+}
+.my-failure-conteiner{
+  display: flex;
+  gap: 87px;
+}
+
+
+.my-failure-conteiner img{
+  width: 560px;
+}
