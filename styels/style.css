@@ -24,7 +24,8 @@
 /* ================= */
 .banner{
   background-image: url("../images/banner/banner1.png");
-  width: 1600px;
+  max-width: 1600px;
+  width: 100%;
   height: 808px;
   background-size: cover;
   padding: 216px 230px 364px 845px;
@@ -54,9 +55,33 @@
 .my-failure-conteiner{
   display: flex;
   gap: 87px;
+  align-items: center;
 }
-
 
 .my-failure-conteiner img{
   width: 560px;
+}
+
+.my-failure-conteiner .prevYear h2{
+  font-size: 40px;
+  color: 151414;
+  margin-bottom: 24px;
+}
+
+.my-failure-conteiner .prevYear p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.my-failure-conteiner .prevYear .fail{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.my-failure-conteiner .prevYear .fail i{
+  font-size: 24px;
+  color: #16D887;
 }
