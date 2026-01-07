@@ -120,3 +120,29 @@
   color: #737272;
   font-weight: 600;
 }
+
+.watch{
+  width: 71%;
+  height: 300px;
+  max-width: 1140px;
+  margin: 130px auto 0;
+  background-image: url("../images/gradient2.png") , url("../images/watch.png");
+  border-radius: 8px;
+  padding: 60px 64px;
+}
+
+.watch .watch-conteiner{
+  max-width: 460px;
+}
+
+.watch .watch-conteiner h1{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.watch .watch-conteiner .btn{
+  background-color: white;
+  color: #F15B22;
+  display:inline-block;
+}
