@@ -41,24 +41,24 @@
    background-image: url("../images/banner/banner3.png")
 }
 
-.banner-conteiner{
+.banner-container{
   max-width: 525px;
   text-align: right;
 }
-.banner-conteiner h1{
+.banner-container h1{
   font-size: 65px;
   color: #151414;
   margin-bottom: 24px;
 }
-.frame3 .banner .banner-conteiner h1{
+.frame3 .banner .banner-container h1{
   color: #f8f8f8;
 }
-.banner-conteiner p{
+.banner-container p{
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 32px;
 }
-.frame3 .banner .banner-conteiner p{
+.frame3 .banner .banner-container p{
   color: #f8f8f8;
 }
 .my-failure{
@@ -66,36 +66,36 @@
   width: 67%;
   max-width: 1072px;
 }
-.my-failure-conteiner{
+.my-failure-container{
   display: flex;
   gap: 87px;
   align-items: center;
 }
 
-.my-failure-conteiner img{
+.my-failure-container img{
   width: 560px;
 }
 
-.my-failure-conteiner .prevYear h2{
+.my-failure-container .prevYear h2{
   font-size: 40px;
   color: 151414;
   margin-bottom: 24px;
 }
 
-.my-failure-conteiner .prevYear p{
+.my-failure-container .prevYear p{
   font-size: 16px;
   line-height: 26px;
   color: #444343;
   margin-bottom: 16px;
 }
 
-.my-failure-conteiner .prevYear .fail{
+.my-failure-container .prevYear .fail{
   display: flex;
   gap: 8px;
   margin-bottom: 10px;
 }
 
-.my-failure-conteiner .prevYear .fail i{
+.my-failure-container .prevYear .fail i{
   font-size: 24px;
   color: #16D887;
 }
@@ -113,23 +113,23 @@
   margin-bottom: 56px;
 }
 
-.plans .plan-conteiner{
+.plans .plan-container{
   display: flex;
   justify-content: space-between;
 }
 
-.plans .plan-conteiner .plan img{
+.plans .plan-container .plan img{
  width: 93px;
  margin-bottom: 24px;
 }
 
-.plans .plan-conteiner .plan h3{
+.plans .plan-container .plan h3{
   font-size: 30px;
   color: #151414;
   margin-bottom: 16px;
 }
 
-.plans .plan-conteiner .plan p{
+.plans .plan-container .plan p{
   font-size: 25px;
   color: #737272;
   font-weight: 600;
@@ -147,22 +147,22 @@
 .frame3 .watch{
    background-image: url("../images/gradient1.png") , url("../images/watch.png");
 }
-.watch .watch-conteiner{
+.watch .watch-container{
   max-width: 460px;
 }
 
-.watch .watch-conteiner h1{
+.watch .watch-container h1{
   font-size: 40px;
   color: white;
   margin-bottom: 24px;
 }
 
-.watch .watch-conteiner .btn{
+.watch .watch-container .btn{
   background-color: white;
   color: #F15B22;
   display:inline-block;
 }
-.frame3 .watch .watch-conteiner .btn{
+.frame3 .watch .watch-container .btn{
   color: #005FAC;
 }
 footer{
@@ -174,7 +174,7 @@ footer{
   padding-bottom: 130px;
 }
 
-.footer-conteiner{
+.footer-container{
   width: 71%;
   max-width: 1140px;
   margin: auto;
@@ -182,38 +182,36 @@ footer{
   justify-content: space-between;
   color: #f8f8f8;
 }
-.footer-conteiner .future{
+.footer-container .future{
   max-width: 485px;
 }
-.footer-conteiner h1{
+.footer-container h1{
   font-size: 45px;
   margin-bottom: 16px;
 }
 
-.footer-conteiner p{
+.footer-container p{
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 24px;
 }
 
-.footer-conteiner .img-conteiner{
+.footer-container .img-container{
   display: flex;
   gap: 17px;
 }
 
-.footer-conteiner .img-conteiner img{
+.footer-container .img-container img{
   width: 47px;
 }
-.footer-conteiner .subs {
-  
-}
-.footer-conteiner .subs h4{
+
+.footer-container .subs h4{
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-.footer-conteiner .subs input{
+.footer-container .subs input{
   border: 1px solid #f8f8f8;
   color: #f8f8f8;
   background-color: #151414;
@@ -224,12 +222,12 @@ footer{
   display: block;
 }
 
-.footer-conteiner .subs .btn{
+.footer-container .subs .btn{
   background-color: #f8f8f8;
   color: #F15B22;
   display: inline-block;
 }
 
-.frame3 .footer-conteiner .subs .btn{
+.frame3 .footer-container .subs .btn{
   color: #005FAC;
 }
