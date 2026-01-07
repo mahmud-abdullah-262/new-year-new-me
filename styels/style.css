@@ -85,3 +85,38 @@
   font-size: 24px;
   color: #16D887;
 }
+
+.plans{
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto 0;
+  text-align: center;
+}
+
+.plans h1{
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 56px;
+}
+
+.plans .plan-conteiner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans .plan-conteiner .plan img{
+ width: 93px;
+ margin-bottom: 24px;
+}
+
+.plans .plan-conteiner .plan h3{
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 16px;
+}
+
+.plans .plan-conteiner .plan p{
+  font-size: 25px;
+  color: #737272;
+  font-weight: 600;
+}
