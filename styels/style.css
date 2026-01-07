@@ -20,7 +20,10 @@
   text-decoration: none;
   color: white;
 }
-
+.frame3 .btn{
+  background-color: #f8f8f8;
+  color: #005FAC;
+}
 /* ================= */
 .banner{
   background-image: url("../images/banner/banner1.png");
@@ -29,6 +32,13 @@
   height: 808px;
   background-size: cover;
   padding: 216px 230px 364px 845px;
+}
+.frame2 .banner{
+   background-image: url("../images/banner/banner2.png")
+}
+
+.frame3 .banner{
+   background-image: url("../images/banner/banner3.png")
 }
 
 .banner-conteiner{
@@ -40,13 +50,17 @@
   color: #151414;
   margin-bottom: 24px;
 }
-
+.frame3 .banner .banner-conteiner h1{
+  color: #f8f8f8;
+}
 .banner-conteiner p{
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 32px;
 }
-
+.frame3 .banner .banner-conteiner p{
+  color: #f8f8f8;
+}
 .my-failure{
   margin: 130px auto 0;
   width: 67%;
@@ -130,7 +144,9 @@
   border-radius: 8px;
   padding: 60px 64px;
 }
-
+.frame3 .watch{
+   background-image: url("../images/gradient1.png") , url("../images/watch.png");
+}
 .watch .watch-conteiner{
   max-width: 460px;
 }
@@ -146,7 +162,9 @@
   color: #F15B22;
   display:inline-block;
 }
-
+.frame3 .watch .watch-conteiner .btn{
+  color: #005FAC;
+}
 footer{
   width: 100%;
   max-width: 1600px;
@@ -210,4 +228,8 @@ footer{
   background-color: #f8f8f8;
   color: #F15B22;
   display: inline-block;
+}
+
+.frame3 .footer-conteiner .subs .btn{
+  color: #005FAC;
 }
